@@ -147,6 +147,51 @@ body {
   color: #e02c6d;
 }
 
+/* contact */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contact-img {
+  flex: 50%;
+}
+.contact .contact-img img {
+  width: 100%;
+}
+.contact .contact-form {
+  flex: 50%;
+  margin-left: 15px;
+}
+
+.contact .contact-form form .form-group {
+  margin: 10px 0;
+}
+.contact .contact-form form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: gray;
+}
+.contact .contact-form form .form-group input,
+.contact .contact-form form .form-group textarea {
+  border: 1px solid pink;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.contact .contact-form form .form-group textarea {
+  height: 120px;
+}
+.contact .contact-form form button {
+  width: 100%;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.contact .contact-form h3,
+.contact .contact-form p {
+  text-align: center;
+  color: lightcoral;
+}
 /* footer */
 footer {
   background: #0a0826;
