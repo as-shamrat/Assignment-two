@@ -237,6 +237,11 @@ footer .social-icons i {
   .header-content .header-text .btn {
     padding: 15px 40px;
   }
+  .header-img img {
+    width: 75%;
+    display: block;
+    margin: 15px auto;
+  }
   .brand-logos ul {
     flex-wrap: wrap;
   }
@@ -278,5 +283,60 @@ footer .social-icons i {
   .res-nav ul li a i {
     font-size: 25px;
     color: #000;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+  .header-img img {
+    width: 85%;
+  }
+  .res-nav {
+    display: block;
+    margin-bottom: 35px;
+  }
+  .res-nav ul {
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .res-nav ul h3 a {
+    text-decoration: none;
+    color: #000;
+  }
+  .res-nav ul li a i {
+    font-size: 25px;
+    color: #000;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact .contact-img {
+    flex: 100%;
+    min-width: 100%;
+  }
+  .contact .contact-form {
+    flex: 100%;
+    min-width: 100%;
+  }
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header-container .header-text h1 {
+    font-size: 25px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+  .header-container .header-text p {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .header-container .header-text .btn {
+    padding: 7px 13px;
+    font-size: 13px;
   }
 }
