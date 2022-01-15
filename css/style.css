@@ -246,7 +246,7 @@ footer .social-icons i {
     flex-wrap: wrap;
   }
   .brand-logos ul li {
-    flex: 25%;
+    flex: 33%;
   }
   .products {
     grid-template-columns: repeat(1, 1fr);
@@ -338,5 +338,11 @@ footer .social-icons i {
   .header-container .header-text .btn {
     padding: 7px 13px;
     font-size: 13px;
+  }
+  .brand-logos ul {
+    flex-wrap: wrap;
+  }
+  .brand-logos ul li {
+    flex: 33%;
   }
 }
