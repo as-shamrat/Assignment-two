@@ -52,13 +52,22 @@ body {
   padding: 10px 20px;
   font-size: 20px;
 }
-
+.navbar ul li a:hover {
+  font-size: 22px;
+  color: pink;
+  text-decoration: underline;
+}
 /* header content */
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: transform 1s ease-in-out;
 }
+.header-content:hover {
+  transform: scale(1.1);
+}
+
 .header-container .header-text h1 {
   font-size: 50px;
   line-height: 1.5em;
@@ -190,7 +199,7 @@ body {
 .contact .contact-form h3,
 .contact .contact-form p {
   text-align: center;
-  color: lightcoral;
+  color: #444;
 }
 /* footer */
 footer {
